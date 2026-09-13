@@ -1,3 +1,5 @@
+#向量存储服务模块
+
 import config_data as config
 from langchain_community.embeddings import DashScopeEmbeddings
 from langchain_chroma import Chroma
