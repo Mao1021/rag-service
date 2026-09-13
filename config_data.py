@@ -1,3 +1,5 @@
+# 系统配置文件
+
 import os
 
 md5_path="./md5.txt"
