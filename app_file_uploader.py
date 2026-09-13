@@ -1,4 +1,4 @@
-# 模块：文件上传模块，接收文档并解析文本
+# 模块：文件上传模块，接收文档文本并解析文本
 import time
 
 import streamlit as st
