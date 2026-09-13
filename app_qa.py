@@ -1,3 +1,4 @@
+# 主程序 实现在线多轮问答
 import time
 from rag import RAGService
 import config_data as config
