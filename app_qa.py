@@ -28,7 +28,8 @@ if prompt:
     ai_res_list=[]
     with st.spinner("AI思考中..."):
         #调用Rag获取AI回答
-        res_stream=st.session_state["rag"].chain.stream({"input":prompt},config.session_config)
+        # res_stream=st.session_state["rag"].stream_answer({"input":prompt},config.session_config)
+        res_stream = st.session_state["rag"].stream_answer(prompt, config.session_config)
 
         # 流式输出
         def capture(generator,cache_list):
